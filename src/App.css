@@ -1,9 +1,13 @@
 :root{
   background-color:#000000 ;
 }
+.app{
+  margin-bottom: 10%;
+}
 .caixaMae{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }

@@ -3,33 +3,39 @@
     font-family:'Kanit', sans-serif;;
 }
 
-.caixaControle{
-    margin-top: 8%;
+
+.caixaPrimaria{
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     width: 80%;
 }
-.novaTarefa{
-    width: 70%;
-    height: 45%;
+
+.cardAdicionado{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    width: 70%;
+    height: 45%;
 }
-.novaTarefa input{
+.cardAdicionado section{
+    display: flex;
+    flex-direction: row;
+}
+.cardAdicionado p{
     margin-left: 35%;
-    width: 80%;
-    height: 40%;
+    width: 80vw;
+    height: 3vh;
     padding: 2%;
     border-radius:8px;
     background-color:#E2466b;
-    color: #ffffff;
+    color: #ffffff
 }
-.novaTarefa button{
-    background-image: url(../);
+.cardAdicionado button{
+    font-size: 30px;
     margin-left: 0.5%;
-    margin-top: 0.5%;
-    width: 3vw;
+    margin-top: 2.5%;
+    width: 5vw;
     height:6vh;
+
 }
