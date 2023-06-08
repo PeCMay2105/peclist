@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+:root{
+    font-family:'Kanit', sans-serif;;
+}
+
+.caixaControle{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.novaTarefa{
+    width: 70%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.novaTarefa input{
+    margin-left: 35%;
+    width: 80%;
+    height: 40%;
+    padding: 2%;
+    border-radius:8px;
+    background-color:#E2466b;
+    color: #ffffff;
+}
+.novaTarefa button{
+    background-image: url(../);
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    width: 3vw;
+    height:6vh;
+}
