@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+:root{
+    font-family: 'Kanit', sans-serif;
+}
+.caixaMenu{
+    margin-top: 8%;
+    width: 90%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.caixaMenu h3{
+    color:#ffffff;
+    padding:0% 10%;
+}
+.caixaMenu h3:hover{
+    text-decoration: underline;
+    scale: 1.02;
+    color:#5a5757 ;
+}
