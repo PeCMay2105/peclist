@@ -19,7 +19,7 @@ const FormTarefa = (props)=>{
 
     const objetoTarefa = {
         "conteudo": tarefa,
-        "feita":false
+        "status":"aFazer"
     }
 
     return(

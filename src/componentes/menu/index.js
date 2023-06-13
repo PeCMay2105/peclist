@@ -1,15 +1,15 @@
 import './menu.css'
 
-const Menu = ()=>{
+const Menu = (props)=>{
 
     return(
         <div className="caixaMae">
             <div className="caixaMenu">
-                <h3>Todas</h3>
+                <h3 onClick={()=> props.onFiltered('todas')}>Todas</h3>
                 <hr></hr>
-                <h3>Concluidas</h3>
+                <h3 onClick={()=> props.onFiltered('concluidas')}>Concluidas</h3>
                 <hr></hr>
-                <h3>A fazer</h3>
+                <h3 onClick={()=> props.onFiltered('aFazer')}>A fazer</h3>
             </div>
         </div>
     )

@@ -6,7 +6,7 @@ const NovaTarefa = (props)=>{
         <div className='caixaPrimaria'>
             <div className='cardAdicionado'>
                     <p>{props.conteudo}</p>
-                    <button></button>
+                    <button onClick={()=> props.onMarked("concluidas")}></button>
             </div>
         </div>
     )

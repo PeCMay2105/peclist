@@ -12,11 +12,12 @@ function App() {
   const configuraListaTarefa = (objeto)=>{
     setlistaTarefa([...listaTarefa,objeto])
   }
+  const [Status,setStatus] = useState("todas")
 
   return (
     <div className="App">
-      <Menu></Menu>
-      {listaTarefa.map(objeto => <NovaTarefa conteudo = {objeto.conteudo}></NovaTarefa>
+      <Menu onFiltered = {(status)=> setStatus(status)}></Menu>
+      {listaTarefa.filter(objeto => {if(Status == 'todas'){return objeto}else if(objeto.status == Status){return objeto}}).map(objeto => <NovaTarefa conteudo = {objeto.conteudo} onMarked ={(status)=> console.log(status)}></NovaTarefa>
       )}
       <FormTarefa salvaTarefa = {cadastrado => configuraListaTarefa(cadastrado)}></FormTarefa>
       
