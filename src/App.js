@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <Menu onFiltered = {(status)=> setStatus(status)}></Menu>
-      {listaTarefa.filter(objeto => {if(Status == 'todas'){return objeto}else if(objeto.status == Status){return objeto}}).map(objeto => <NovaTarefa conteudo = {objeto.conteudo} onMarked ={(status)=> console.log(status)}></NovaTarefa>
+      {listaTarefa.filter(objeto => {if(Status == 'todas'){return objeto}else if(objeto.status == Status){return objeto}}).map(objeto => <NovaTarefa conteudo = {objeto.conteudo} onMarked ={(status)=> {listaTarefa.map(objeto => objeto.status = status)}}></NovaTarefa>
       )}
       <FormTarefa salvaTarefa = {cadastrado => configuraListaTarefa(cadastrado)}></FormTarefa>
       
