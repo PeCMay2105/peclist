@@ -23,6 +23,8 @@
     flex-direction: row;
 }
 .cardAdicionado p{
+    display: flex;
+    justify-content: space-between;
     margin-left: 35%;
     width: 80vw;
     height: 3vh;
@@ -31,11 +33,25 @@
     background-color:#E2466b;
     color: #ffffff
 }
-.cardAdicionado button{
+.cardAdicionado .botao{
+    background-color: #ffffff ;
+    padding: 3,0px;
+    border-radius: 8px;
     font-size: 30px;
     margin-left: 0.5%;
-    margin-top: 2.5%;
+    margin-top: 3%;
     width: 5vw;
     height:6vh;
 
+}
+.deleteButton{
+    background-color: #E2466b;
+    width: 20px;
+    border-radius: 15px;
+}
+.deleteButton:hover{
+    scale:1.2
+}
+.deleteButton:active{
+    scale:0.8
 }

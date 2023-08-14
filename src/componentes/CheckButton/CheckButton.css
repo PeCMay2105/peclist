@@ -1,0 +1,13 @@
+
+
+.icone{
+    margin-top: 2.8%;
+    margin-left: 1.2%;
+    display: flex;
+    height: 6vh;
+    width: 6vw;
+    border-radius: 6px;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+}

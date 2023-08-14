@@ -28,9 +28,10 @@
 }
 
 .novaTarefa button{
-    font-size: 30px;
+    font-size: 32px;
+    padding-bottom: 12px;
     margin-left: 0.5%;
-    margin-top: 0.5%;
-    width: 3vw;
-    height:6vh;
+    margin-top: 0.2%;
+    width: 3.5vw;
+    height:50px;
 }
